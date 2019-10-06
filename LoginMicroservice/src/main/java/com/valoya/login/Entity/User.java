@@ -1,14 +1,16 @@
 package com.valoya.login.Entity;
 
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.Objects;
 
-//import org.hibernate.annotations.NaturalId;
-
 @Entity
 @Table(name = "user")
-
+@Getter
+@Setter
 public class User {
 
     private static final long serialVersionUID = 1L;
@@ -23,7 +25,7 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Access(AccessType.FIELD)
+
     private Long id;
     @Column(nullable = false)
 
@@ -42,7 +44,7 @@ public class User {
     private String role;
 
 
-    public String getName() {
+   /* public String getName() {
         return name;
     }
 
@@ -72,7 +74,7 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
-    }
+    }*/
 
 
     @Override

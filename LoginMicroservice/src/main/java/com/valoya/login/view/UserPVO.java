@@ -1,27 +1,32 @@
 package com.valoya.login.view;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.io.Serializable;
 import java.util.Date;
-
+@Getter
+@Setter
 public class UserPVO implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	private String name;
 	private String email;
+	private String password;
+	private String role;
 
-	public String getPassword() {
+	/*public String getPassword() {
 		return password;
 	}
 
 	public void setPassword(String password) {
 		this.password = password;
-	}
+	}*/
 
-	private String password;
-	private String role;
 
-	public String getName() {
+
+	/*public String getName() {
 		return name;
 	}
 
@@ -43,6 +48,6 @@ public class UserPVO implements Serializable {
 
 	public void setRole(String role) {
 		this.role = role;
-	}
+	}*/
 
 	}

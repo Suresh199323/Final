@@ -2,7 +2,7 @@ package com.valoya.login.Impl;
 
 import com.valoya.login.Entity.User;
 //import com.valoya.login.login.dao.RoleRepository;
-import com.valoya.login.dao.UserRepository;
+import com.valoya.login.repository.UserRepository;
 import com.valoya.login.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

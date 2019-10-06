@@ -1,4 +1,4 @@
-package com.valoya.login.dao;
+package com.valoya.login.repository;
 
 import com.valoya.login.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
