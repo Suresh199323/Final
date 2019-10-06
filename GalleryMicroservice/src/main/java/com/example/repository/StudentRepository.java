@@ -1,9 +1,9 @@
-package com.example.dao;
+package com.example.repository;
 
 import com.example.domain.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface StudentDao extends JpaRepository<Student, Long> {
+public interface StudentRepository extends JpaRepository<Student, Long> {
 
     Student findByEmail(String emial);
 }
