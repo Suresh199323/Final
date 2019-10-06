@@ -1,9 +1,8 @@
 package com.valoya.login.Controllers;
 
 import com.valoya.login.Entity.User;
-import com.valoya.login.dao.UserRepository;
+import com.valoya.login.repository.UserRepository;
 //import com.valoya.login.login.security.JwtGenerator;
-import com.valoya.login.service.UserService;
 import com.valoya.login.util.PVOUtil;
 import com.valoya.login.view.UserPVO;
 import org.slf4j.Logger;
