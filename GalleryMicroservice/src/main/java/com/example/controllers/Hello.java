@@ -1,4 +1,4 @@
-package com.example.gallary.gallery.controllers;
+package com.example.controllers;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

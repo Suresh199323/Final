@@ -1,8 +1,8 @@
-package com.example.gallary.gallery.Impl;
+package com.example.Impl;
 
-import com.example.gallary.gallery.dao.StudentDao;
-import com.example.gallary.gallery.domain.Student;
-import com.example.gallary.gallery.service.StudentService;
+import com.example.domain.Student;
+import com.example.dao.StudentDao;
+import com.example.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

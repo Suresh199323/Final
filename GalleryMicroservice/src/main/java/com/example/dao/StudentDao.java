@@ -1,6 +1,6 @@
-package com.example.gallary.gallery.dao;
+package com.example.dao;
 
-import com.example.gallary.gallery.domain.Student;
+import com.example.domain.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentDao extends JpaRepository<Student, Long> {

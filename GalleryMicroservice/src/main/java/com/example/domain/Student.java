@@ -1,4 +1,4 @@
-package com.example.gallary.gallery.domain;
+package com.example.domain;
 import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.*;

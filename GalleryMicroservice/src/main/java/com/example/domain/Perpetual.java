@@ -1,4 +1,4 @@
-package com.example.gallary.gallery.domain;
+package com.example.domain;
 
 
 import javax.persistence.*;

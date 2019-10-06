@@ -1,4 +1,4 @@
-package com.example.gallary.gallery.dto;
+package com.example.dto;
 
 public class StudentDTO {
     private String name;
