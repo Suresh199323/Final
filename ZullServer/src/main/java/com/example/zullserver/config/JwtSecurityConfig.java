@@ -1,7 +1,7 @@
 
 package com.example.zullserver.config;
 
-import com.example.zullserver.JwtAuthorization;
+import com.example.zullserver.security.JwtAuthorization;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
