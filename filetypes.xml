@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="MortgageApplication" type="JAVA" />
     </extensionMap>
   </component>
 </application>
